@@ -38,7 +38,7 @@ struct PolylinesView: View {
                 for coordinate in coordinates {
                     encodedPolylineList.append("\(encode(coordinate))")
                 }
-                encodedPolylineList.append("\n\nEncoded Levels (for use on" +
+                encodedPolylineList.append("\n\nEncoded Levels (for use on " +
                     "https://developers.google.com/maps/documentation/utilities/polylineutility)\n\n")
                 for _ in coordinates {
                     encodedPolylineList.append("B")
