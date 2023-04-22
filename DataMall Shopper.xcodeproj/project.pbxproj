@@ -7,19 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E464D0E429F3967F00EFA995 /* DataMall_ShopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D0E329F3967F00EFA995 /* DataMall_ShopperApp.swift */; };
+		E464D0E429F3967F00EFA995 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D0E329F3967F00EFA995 /* App.swift */; };
 		E464D0E629F3967F00EFA995 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D0E529F3967F00EFA995 /* ContentView.swift */; };
 		E464D0E829F3968000EFA995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E464D0E729F3968000EFA995 /* Assets.xcassets */; };
 		E464D0EB29F3968000EFA995 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E464D0EA29F3968000EFA995 /* Preview Assets.xcassets */; };
+		E464D0FC29F396A600EFA995 /* BusOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D0F329F396A600EFA995 /* BusOperator.swift */; };
+		E464D0FD29F396A600EFA995 /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D0F429F396A600EFA995 /* BusStop.swift */; };
+		E464D0FE29F396A600EFA995 /* BusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D0F529F396A600EFA995 /* BusService.swift */; };
+		E464D0FF29F396A600EFA995 /* APIFetchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D0F629F396A600EFA995 /* APIFetchers.swift */; };
+		E464D10029F396A600EFA995 /* BusRoutePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D0F729F396A600EFA995 /* BusRoutePoint.swift */; };
+		E464D10129F396A600EFA995 /* APIKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D0F829F396A600EFA995 /* APIKeyHandler.swift */; };
+		E464D10229F396A600EFA995 /* BusArrivalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D0F929F396A600EFA995 /* BusArrivalInfo.swift */; };
+		E464D10329F396A600EFA995 /* BusStopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D0FA29F396A600EFA995 /* BusStopList.swift */; };
+		E464D10429F396A600EFA995 /* BusRouteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D0FB29F396A600EFA995 /* BusRouteList.swift */; };
+		E464D10629F396C900EFA995 /* BusRouteDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D10529F396C900EFA995 /* BusRouteDirection.swift */; };
+		E464D11129F3971700EFA995 /* JSONUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D11029F3971700EFA995 /* JSONUtilities.swift */; };
+		E464D11329F398AC00EFA995 /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = E464D11229F398AC00EFA995 /* APIKeys.plist */; };
+		E464D11529F398C000EFA995 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D11429F398C000EFA995 /* Bundle.swift */; };
+		E464D11929F3A7D600EFA995 /* BusStopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D11829F3A7D600EFA995 /* BusStopsView.swift */; };
+		E464D11B29F3A80800EFA995 /* BusRoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D11A29F3A80800EFA995 /* BusRoutesView.swift */; };
+		E464D11D29F3AA1E00EFA995 /* CoordinatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D11C29F3AA1E00EFA995 /* CoordinatesView.swift */; };
+		E464D11F29F3AD0100EFA995 /* PolylinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D11E29F3AD0100EFA995 /* PolylinesView.swift */; };
+		E4958A0329F3D0B400C5BE28 /* Polylines.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4958A0229F3D0B400C5BE28 /* Polylines.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E464D0E029F3967F00EFA995 /* DataMall Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DataMall Shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E464D0E329F3967F00EFA995 /* DataMall_ShopperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMall_ShopperApp.swift; sourceTree = "<group>"; };
+		E464D0E329F3967F00EFA995 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		E464D0E529F3967F00EFA995 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E464D0E729F3968000EFA995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E464D0EA29F3968000EFA995 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E464D0EC29F3968000EFA995 /* DataMall_Shopper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DataMall_Shopper.entitlements; sourceTree = "<group>"; };
+		E464D0F329F396A600EFA995 /* BusOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusOperator.swift; sourceTree = "<group>"; };
+		E464D0F429F396A600EFA995 /* BusStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
+		E464D0F529F396A600EFA995 /* BusService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusService.swift; sourceTree = "<group>"; };
+		E464D0F629F396A600EFA995 /* APIFetchers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIFetchers.swift; sourceTree = "<group>"; };
+		E464D0F729F396A600EFA995 /* BusRoutePoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusRoutePoint.swift; sourceTree = "<group>"; };
+		E464D0F829F396A600EFA995 /* APIKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeyHandler.swift; sourceTree = "<group>"; };
+		E464D0F929F396A600EFA995 /* BusArrivalInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusArrivalInfo.swift; sourceTree = "<group>"; };
+		E464D0FA29F396A600EFA995 /* BusStopList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopList.swift; sourceTree = "<group>"; };
+		E464D0FB29F396A600EFA995 /* BusRouteList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusRouteList.swift; sourceTree = "<group>"; };
+		E464D10529F396C900EFA995 /* BusRouteDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusRouteDirection.swift; sourceTree = "<group>"; };
+		E464D11029F3971700EFA995 /* JSONUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONUtilities.swift; sourceTree = "<group>"; };
+		E464D11229F398AC00EFA995 /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		E464D11429F398C000EFA995 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		E464D11629F398DB00EFA995 /* DataMall-Shopper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DataMall-Shopper-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E464D11829F3A7D600EFA995 /* BusStopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopsView.swift; sourceTree = "<group>"; };
+		E464D11A29F3A80800EFA995 /* BusRoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRoutesView.swift; sourceTree = "<group>"; };
+		E464D11C29F3AA1E00EFA995 /* CoordinatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesView.swift; sourceTree = "<group>"; };
+		E464D11E29F3AD0100EFA995 /* PolylinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolylinesView.swift; sourceTree = "<group>"; };
+		E4958A0229F3D0B400C5BE28 /* Polylines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polylines.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +89,11 @@
 		E464D0E229F3967F00EFA995 /* DataMall Shopper */ = {
 			isa = PBXGroup;
 			children = (
-				E464D0E329F3967F00EFA995 /* DataMall_ShopperApp.swift */,
-				E464D0E529F3967F00EFA995 /* ContentView.swift */,
+				E464D11629F398DB00EFA995 /* DataMall-Shopper-Info.plist */,
+				E464D11729F3A7BB00EFA995 /* Views */,
+				E464D0F229F3969F00EFA995 /* API */,
+				E464D10729F396DB00EFA995 /* Utilities */,
+				E464D11229F398AC00EFA995 /* APIKeys.plist */,
 				E464D0E729F3968000EFA995 /* Assets.xcassets */,
 				E464D0EC29F3968000EFA995 /* DataMall_Shopper.entitlements */,
 				E464D0E929F3968000EFA995 /* Preview Content */,
@@ -69,6 +109,46 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E464D0F229F3969F00EFA995 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E464D0F629F396A600EFA995 /* APIFetchers.swift */,
+				E464D0F829F396A600EFA995 /* APIKeyHandler.swift */,
+				E464D0F929F396A600EFA995 /* BusArrivalInfo.swift */,
+				E464D0F329F396A600EFA995 /* BusOperator.swift */,
+				E464D10529F396C900EFA995 /* BusRouteDirection.swift */,
+				E464D0FB29F396A600EFA995 /* BusRouteList.swift */,
+				E464D0F729F396A600EFA995 /* BusRoutePoint.swift */,
+				E464D0F529F396A600EFA995 /* BusService.swift */,
+				E464D0F429F396A600EFA995 /* BusStop.swift */,
+				E464D0FA29F396A600EFA995 /* BusStopList.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E464D10729F396DB00EFA995 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E464D11429F398C000EFA995 /* Bundle.swift */,
+				E464D11029F3971700EFA995 /* JSONUtilities.swift */,
+				E4958A0229F3D0B400C5BE28 /* Polylines.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E464D11729F3A7BB00EFA995 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E464D0E329F3967F00EFA995 /* App.swift */,
+				E464D0E529F3967F00EFA995 /* ContentView.swift */,
+				E464D11829F3A7D600EFA995 /* BusStopsView.swift */,
+				E464D11A29F3A80800EFA995 /* BusRoutesView.swift */,
+				E464D11C29F3AA1E00EFA995 /* CoordinatesView.swift */,
+				E464D11E29F3AD0100EFA995 /* PolylinesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,6 +159,7 @@
 				E464D0DC29F3967F00EFA995 /* Sources */,
 				E464D0DD29F3967F00EFA995 /* Frameworks */,
 				E464D0DE29F3967F00EFA995 /* Resources */,
+				E4958A0429F3DA2700C5BE28 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -127,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E464D11329F398AC00EFA995 /* APIKeys.plist in Resources */,
 				E464D0EB29F3968000EFA995 /* Preview Assets.xcassets in Resources */,
 				E464D0E829F3968000EFA995 /* Assets.xcassets in Resources */,
 			);
@@ -134,13 +216,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E4958A0429F3DA2700C5BE28 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E464D0DC29F3967F00EFA995 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E464D10329F396A600EFA995 /* BusStopList.swift in Sources */,
+				E464D0FD29F396A600EFA995 /* BusStop.swift in Sources */,
+				E464D11D29F3AA1E00EFA995 /* CoordinatesView.swift in Sources */,
+				E464D11129F3971700EFA995 /* JSONUtilities.swift in Sources */,
+				E464D11F29F3AD0100EFA995 /* PolylinesView.swift in Sources */,
+				E4958A0329F3D0B400C5BE28 /* Polylines.swift in Sources */,
+				E464D11B29F3A80800EFA995 /* BusRoutesView.swift in Sources */,
+				E464D0FC29F396A600EFA995 /* BusOperator.swift in Sources */,
+				E464D10429F396A600EFA995 /* BusRouteList.swift in Sources */,
+				E464D0FE29F396A600EFA995 /* BusService.swift in Sources */,
 				E464D0E629F3967F00EFA995 /* ContentView.swift in Sources */,
-				E464D0E429F3967F00EFA995 /* DataMall_ShopperApp.swift in Sources */,
+				E464D10029F396A600EFA995 /* BusRoutePoint.swift in Sources */,
+				E464D0FF29F396A600EFA995 /* APIFetchers.swift in Sources */,
+				E464D10629F396C900EFA995 /* BusRouteDirection.swift in Sources */,
+				E464D11929F3A7D600EFA995 /* BusStopsView.swift in Sources */,
+				E464D0E429F3967F00EFA995 /* App.swift in Sources */,
+				E464D10229F396A600EFA995 /* BusArrivalInfo.swift in Sources */,
+				E464D11529F398C000EFA995 /* Bundle.swift in Sources */,
+				E464D10129F396A600EFA995 /* APIKeyHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +394,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DataMall-Shopper-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +422,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DataMall-Shopper-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
