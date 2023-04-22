@@ -29,6 +29,7 @@
 		E464D11D29F3AA1E00EFA995 /* CoordinatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D11C29F3AA1E00EFA995 /* CoordinatesView.swift */; };
 		E464D11F29F3AD0100EFA995 /* PolylinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E464D11E29F3AD0100EFA995 /* PolylinesView.swift */; };
 		E4958A0329F3D0B400C5BE28 /* Polylines.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4958A0229F3D0B400C5BE28 /* Polylines.swift */; };
+		E4958A0629F3DCAB00C5BE28 /* APIKeys-Sample.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4958A0529F3DCAB00C5BE28 /* APIKeys-Sample.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		E464D11C29F3AA1E00EFA995 /* CoordinatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesView.swift; sourceTree = "<group>"; };
 		E464D11E29F3AD0100EFA995 /* PolylinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolylinesView.swift; sourceTree = "<group>"; };
 		E4958A0229F3D0B400C5BE28 /* Polylines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polylines.swift; sourceTree = "<group>"; };
+		E4958A0529F3DCAB00C5BE28 /* APIKeys-Sample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "APIKeys-Sample.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				E464D0F229F3969F00EFA995 /* API */,
 				E464D10729F396DB00EFA995 /* Utilities */,
 				E464D11229F398AC00EFA995 /* APIKeys.plist */,
+				E4958A0529F3DCAB00C5BE28 /* APIKeys-Sample.plist */,
 				E464D0E729F3968000EFA995 /* Assets.xcassets */,
 				E464D0EC29F3968000EFA995 /* DataMall_Shopper.entitlements */,
 				E464D0E929F3968000EFA995 /* Preview Content */,
@@ -211,6 +214,7 @@
 				E464D11329F398AC00EFA995 /* APIKeys.plist in Resources */,
 				E464D0EB29F3968000EFA995 /* Preview Assets.xcassets in Resources */,
 				E464D0E829F3968000EFA995 /* Assets.xcassets in Resources */,
+				E4958A0629F3DCAB00C5BE28 /* APIKeys-Sample.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
